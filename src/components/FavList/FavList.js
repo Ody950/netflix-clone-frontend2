@@ -39,8 +39,6 @@ function FavList() {
   }
 
 
-
-
   const fundeleteMov  = (item) => {
     
    const serverURL = `${process.env.REACT_APP_serverURL}/DELETE/${item}`;
@@ -56,14 +54,6 @@ function FavList() {
    
    }
   
-
-
-
-
-
-
-
-
 
   const takeNewDataFromUpdatedModal = (arr)=>{
     setNewArr(arr)

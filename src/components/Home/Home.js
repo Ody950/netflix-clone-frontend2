@@ -6,10 +6,8 @@ function Home(){
 
 const [movieData, setMovieData] = useState([]);
 
-
 const getTrending = () =>{
 
-  
 const serverURL = `${process.env.REACT_APP_serverURL}/trending`;
 
 fetch(serverURL)

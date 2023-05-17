@@ -3,8 +3,6 @@
 
 import Movie from '../Movie/Movie';
 
-
-
 function MovieList(props) {
 
     return (
