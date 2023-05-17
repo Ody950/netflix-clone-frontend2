@@ -9,7 +9,7 @@ const [movieData, setMovieData] = useState([]);
 
 const getTrending = () =>{
 
-const serverURL = `${process.env.REACT_APP_serverURL}/trending`;
+const serverURL = `https://movie-app-v4l3.onrender.com/trending`;
 
 fetch(serverURL)
 .then(response=>{
