@@ -4,7 +4,6 @@ import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
 import axios from 'axios';
-import { useEffect, useState } from 'react';
 import Form from 'react-bootstrap/Form';
 
 function ModalUpdat(props) {
