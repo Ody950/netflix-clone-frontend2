@@ -23,7 +23,7 @@ function Movie(props) {
 
     const path = 'https://image.tmdb.org/t/p/w500';
     
-    const posterUrl = `https://www.image.tmdb.org/t/p/w500`
+
     return (
         <>
         <section key={props.id} className='Movie1'>
